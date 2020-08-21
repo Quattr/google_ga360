@@ -4,7 +4,7 @@ connection: "bigquery-connectors-ga360"
 include: "*.view"
 
 # include all the dashboards
-# include: "*.dashboard"
+include: "lookml_dashboards/*.dashboard"
 
 explore: ga_sessions {
   label: "GA 360 Sessions"
